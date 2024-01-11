@@ -17,5 +17,10 @@ def fajlbeolvas():
 def csapat_darab(osztaly_listam):
     print(f"{len(osztaly_listam)} db csapat van.")
 
-def newyork():
-    for i in range()
+def newyork(osztaly_listam):
+    index:int=0
+    for i in range(0,len(osztaly_listam),1):
+        if osztaly_listam[i].varos == "New York":
+            index== i
+    print(f"New Yorkban található csapatok. Stadion neve:{osztaly_listam[index].stadion} Csapat száma: {osztaly_listam[index].csapat_szam}")
+

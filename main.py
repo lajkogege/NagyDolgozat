@@ -1,12 +1,18 @@
+
 import elsofeladat
+import masodikfeladat
+
 #elsofeladat.beker()
-#elsofeladat.beker2()
 #listam=elsofeladat.beker2()
+#elsofeladat.beker2()
 #elsofeladat.legkisebb(listam)
 
-import masodikfeladat
-#random_listam=masodikfeladat.random()
-#masodikfeladat.ketjyegyuek_szama(random_listam)
+#import masodikfeladat
+random_listam=masodikfeladat.random()
+masodikfeladat.ketjyegyuek_szama(random_listam)
+paros=masodikfeladat.paros_osszeg(random_listam)
+paratlan=masodikfeladat.paratlan_osszege(random_listam)
+masodikfeladat.paros_vagy_paratlan(paros,paratlan)
 
 import harmadikfeladat
 osztaly_listam=harmadikfeladat.fajlbeolvas()
